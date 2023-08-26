@@ -1,0 +1,288 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.MonNavbar{
+background-color: #7BB936;
+z-index: 100;
+}
+.menuSingila ul li{
+font-weight: bold;
+font-size: larger;
+font-size: 20px;
+}
+.logodclic{
+    width: 100px;
+}
+.ceqwdclic{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 2px;
+    color: white;
+      }
+.descliq{
+    font-weight: bold;
+    font-size: 30px;
+    background-color:  #7cb9366a;
+    border-radius: 50px  0px  50px 0px ;
+    cursor: pointer;
+    content-visibility: 100%;
+}
+.text1{
+  font-weight: bold;
+  text-align: center;
+  background-color: #7cb9366a;
+  border-radius: 50px  0px  50px 0px ;
+  margin-bottom: 100px;
+  font-size: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(255, 0, 0, 0.533);
+}
+.bsvoirplus{
+    color: white;  
+}
+.BnFormation button{
+  background-color: rgba(255, 0, 0, 0.533);
+  box-shadow: 5px 5px 5px 5px rgba(255, 0, 0, 0.557);
+  border-color: rgba(255, 0, 0, 0.533);
+}
+.bsLirePlus button{
+  background-color: rgba(255, 0, 0, 0.533);
+  border-radius: 50px;
+  border-color: rgba(255, 0, 0, 0.533);
+}
+.LesPaysAfricain p{
+   border-radius: 25px 25px 25px 25px; 
+  box-sizing: 0px;
+}
+.vonemin{
+    width: auto;
+    height: 700px;
+    background-color: #7BB936CE;
+}
+.drapoRond img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.formDclic{
+  box-shadow: 5px 5px 5px 5px white;
+}
+.carousel div ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .carousel {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .carousel__slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    /* border: 2px solid #333; */
+    height: 200px;
+  }
+  
+  .carousel__list {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .carousel__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color:#7cb9366a;
+    cursor: pointer;
+  }
+  
+  .carousel__item:hover {
+    transform: scale(1.1);
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .dpbfaso{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    content: normal;
+  }
+     /* Temoignages */
+   .Temoignages{
+    background-color: #7BB936;
+    width: auto;
+    height: 600px;
+   }
+   .ImgTemoignage img{
+    height: 400px;
+    width: 400px;
+   }
+   .ImgTemoignage img:hover {
+    transform: scale(1.05);
+}
+input[type="text"],input[type="email"], input[type="number"] {
+    display: block;
+    margin: 2% auto;
+    width: 85%;
+    height: 4vh;
+    max-height: 30px;
+    border-radius: 5px;
+    border: solid 2px white;
+    background-color: white;
+}
+
+input[type="submit"]{
+    display:block;
+    margin: 4% auto;
+    width: 25%;
+    height: 4vh;
+    background-color: white;
+    border: solid 2px white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input:hover {
+    transform: scale(1.05);
+}
+.contactNous{
+  width: 450px;
+  height: 500px;
+  border: solid 3px #7BB936;;
+  border-radius: 20px;
+  background-color: #7BB936;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactNous h1{
+font-weight: bold;
+text-align: center;
+color: white;
+
+}
+.contactNousplus {
+  height: 500px;
+  border: solid 3px #7BB936;
+  border-radius: 20px;
+  background-color: #7BB936;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+}
+.contactNousplus  div h1{
+ margin-left: 50px;
+ font-weight: bold;
+ color: white;
+}
+.contactNousplus  div p{
+  margin-left: 100px;
+  /* font-weight: bold; */
+  font-size: 25px;
+}
+.formationR a{
+text-decoration: none;
+color: black;
+}
+/* responsive temoignage */
+@media only screen and (max-width: 750px){
+  .Temoignages{
+    background-color: #7BB936;
+    width: auto;
+    height: 600px;
+   }
+   .ImgTemoignage img{
+    display: none;
+    /* height: 100px;
+    width: 400px; */
+   }
+   .ImgTemoignage img:hover {
+    transform: scale(1.05);
+  }
+
+  .contactNousplus {
+    width: 450px;
+    height: 500px;
+    border: solid 3px #7BB936;
+    border-radius: 20px;
+    background-color: #7BB936;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  .contactNousplus  div h1{
+   margin-left: 50px;
+   font-weight: bold;
+   color: white;
+  }
+
+  .formationR a{
+  text-decoration: none;
+  color: black;
+  }
+  }
+
+/* footer */
+.footeColor{
+  width: 100%;
+  height: 300px;
+  background-color: #7BB936;
+}
+.footeColor div div h1{
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.CopyrightT{
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.footeColor div img{
+  height: 100px;
+  width: 150px;
+  margin-top: 20px;
+}
+.footeColor div a{
+  text-decoration: none;
+  color: white;
+
+}
+/* responsive footer debut */
+@media only screen and (max-width: 750px){
+.footerpage{
+  display: flex;
+  flex-direction: column;
+}
+.footeColor{
+  width: 100%;
+  height: 700px;
+  background-color: #7BB936;
+}
+.footeColor div div h1{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+}
+
+/* responsive footer fin */

@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* .nava {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  font-size: 1.2em;
+  width: 50%;
+  height: 50px;
+  background-color: #FAF9F7;
+  text-decoration: none;
+  color: black;
+} */
+.progdclic{
+margin-left: 50px !important;
+font-size: 1.5em;
+font-weight: bolder;
+}
+.nav1{
+display: flex;
+}
+.brico{
+display: flex;
+justify-content: center;
+background-color: #FAF9F7;
+}
+.navtext {
+  text-decoration: none;
+  color: black;
+  font-weight: bold !important;
+  font-size: 1.2em !important;
+}
+
+.TEST {
+  background-color: #dd0202a4;
+}
+
+.titre {
+  font-size: 1.7em;
+}
+
+.head {
+  background-color: #FAF9F7;
+  gap: 200px;
+}
+
+.bloc1 {
+  width: 100%;
+  height: 600px;
+  background-color: #BCBBB9;
+
+}
+
+.imghead {
+  margin: 30px 100px 0px 130px;
+  max-width: 1000px;
+  min-width: 400px;
+  box-shadow:0 0 15px rgba(red, green, blue, alpha)
+}
+
+.lien1 {
+  margin-left: 910px;
+  font-size: small;
+  text-decoration: none;
+  color: #3216F5;
+}
+
+.bloc2 {
+  width: 100%;
+  height: 480px;
+  background-color: #FAF9F7;
+  border: 1px solid #BCBBB9;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.trait1 {
+  width: 300px;
+  height: 7px;
+  margin-left: 500px;
+  background-color: #E62D35;
+}
+
+.dclic {
+  font-size: 2.5em;
+  
+}
+
+.programme {
+  font-size: 1.5em;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.formation {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0px 0px 0px 400px;
+}
+
+.formation1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 20px 0px 0px 400px;
+}
+
+.formation2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0px 0px 0px 400px;
+}
+
+/* .pays{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0px 0px 0px 400px;
+    } */
+.trait2 {
+  width: 300px;
+  height: 7px;
+  margin: 10px 0px 0px 470px;
+  background-color: #E62D35;
+}
+
+.imgformation {
+  margin: 20px 0px 0px 190px;
+}
+
+.bloc3 {
+  width: 100%;
+  height: 750px;
+  background-color: #BCBBB9;
+  border: 1px solid #BCBBB9;
+}
+.imggroupe1{
+width: 70%;
+height: 500px;
+margin-left: 200px;
+
+}
+
+.bloc4 {
+  width: 100%;
+  height: 300px;
+  background-color: #FAF9F7;
+  /* border:1px solid #3216F5  ; */
+}
+
+.trait4 {
+  width: 290px;
+  height: 7px;
+  margin: 10px 0px 0px 460px;
+  background-color: #E62D35;
+}
+
+.bloc5 {
+  width: 100%;
+  height: 680px;
+  background-color: #FAF9F7;
+  /* border:1px solid #16f534  ; */
+}
+
+.trait5 {
+  width: 290px;
+  height: 7px;
+  margin: 10px 0px 0px 460px;
+  background-color: #E62D35;
+}
+
+.imgbloc5 {
+  margin: 20px 0px 0px 110px;
+}
+
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  border: 2px solid #3216F5;
+  color: white;
+}
+
+
+.footext {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footbas {
+  display: flex;
+  gap: 600px;
+  margin-top: 150px;
+
+}
+
+.imgg2 {
+  width: 70%;
+  margin: 30px 0px 30px 180px;
+}
+
+.lgr {
+  width: 100%;
+}
+
+.logoif {
+  width: 250px;
+}
+
+* form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 80%;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+* .ncontact {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0px 0px 0px 320px;
+}
+
+.contact {
+  width: 100%;
+  height: 550px;
+  background-color: #FAF9F7;
+}
+
+.form1 {
+  margin-top: 20px;
+}
+
+.trait22 {
+  width: 300px;
+  height: 7px;
+  margin: 20px 0px 30px 460px;
+  background-color: #E62D35;
+}
+
+.cardformation {
+  display: flex;
+  gap: 200px;
+
+  justify-content: center;
+}
+
+.cardform {
+  background-color: #007bff;
+}
+
+.formtext {
+  margin: 10px 0px 0px 230px;
+}
+
+.input {
+  margin: 10px 0px 0px 20px;
+}
+
+
+
